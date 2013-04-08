@@ -1,0 +1,14 @@
+author: DerFlash
+database: false
+generator: http://dinnerbone.com/minecraft/tools/pluginator/
+main: de.derflash.plugins.rocketlift.RocketLift
+name: RocketLift
+startup: postworld
+url: http://www.cube-nation.de/
+version: '1.0'
+commands:
+    rocketlift:
+        description: RocketLift administration
+        usage: /<command> help
+        permission: rocketlift.admin
+        permission-message: You don't have <permission>
